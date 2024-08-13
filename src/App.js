@@ -28,6 +28,60 @@ const projects = [
     },
     image: 'src/Smart_Aquarium_Care_System.jpg',
   },
+
+  {
+    title: 'Medicine Dispenser',
+    description: 'Interfacing with Atmega32 microcontroller. Automated medicine dispensing using a stepper motor. Alarm system for medication reminders.',
+    projectType: 'Individual',
+    motivation: 'This project is driven by the increasing challenges faced by older individuals in managing their medications effectively, particularly when faced with the complexities of multiple prescriptions and strict schedules.',
+    owner: {
+      name: 'P. V. Nipun Lakshitha',
+      degree: 'BSc (Hons) in Electronic and IT',
+      year: 'Third Year',
+      linkedin: 'https://www.linkedin.com/in/nipun-lakshitha',
+    },
+    image: 'src/Medicine_Dispenser.jpg',
+  },
+  {
+    title: 'Restaurant Price Prediction',
+    description: 'Using a dataset in Kaggle, we used ML techniques to predict restaurant prices in Bangalore',
+    projectType: 'Group',
+    motivation: 'What is the price range suitable for new restaurant owners. moderate prices would elevate sales',
+    owner: {
+      name: 'S.R.Sooriarachchi',
+      degree: 'Statistics special',
+      year: 'Third Year',
+      linkedin: 'https://www.linkedin.com/in/sehara-sooriarachchi',
+    },
+    image: 'src/Restaurant_Price_Prediction.jpg',
+  },
+
+  {
+    title: 'Electronic Gaming Device',
+    description: 'A gaming device consist of 8*16 led matrix display and push buttons as the inputs and outputs. The pong game can be played with two modes (single player and multiplayer) can be improved for other mini games like Tetris and snake. ',
+    projectType: 'Individual',
+    motivation: 'Nowadays all people are using smart devices and addicted. spent time with old classic mini games on a classic mini game device will not only evoke nostalgia but also provide a healthy break from modern digital addiction, potentially benefiting cognitive functions and mental well-being.',
+    owner: {
+      name: 'L.D.Madhusankha',
+      degree: 'BSc (Hons) in Electronic and IT',
+      year: 'Third Year',
+      linkedin: 'https://www.linkedin.com/in/dilan-madhushanka',
+    },
+    image: 'src/Electronic_Gaming_Device.jpg',
+  },
+  {
+    title: 'Power Consumption Measuring Device ',
+    description: 'Measure the real time power by taking the measurements of corresponding voltage and current using voltage and current sensors.',
+    projectType: 'Group',
+    motivation: 'It is very important if we can measure the power consumption of a life when we are using an electrical device in day to day life. It help to find from where the most power consuming devices in our home or working place. So if we have a simple low cost device for that, it would be a great help',
+    owner: {
+      name: 'R.P. Upuli Indula ',
+      degree: 'Engineering Physics ',
+      year: 'Third Year',
+      linkedin: 'https://www.linkedin.com/in/upuli-indunil',
+    },
+    image: 'src/Power_Consumption_Measuring_Device.jpg',
+  },
   // Other projects...
 ];
 
